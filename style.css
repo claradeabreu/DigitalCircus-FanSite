@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    background-color: rgb(146, 154, 161);
+}
+
+body * {
+    color: #000000;
+}
+    
+
+#container {
+    width: 360px;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+   width: 112px;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+/* links */
+ul {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   padding: 16px 24px;
+
+   background: rgba(45, 68, 146, 0.1);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   border-radius: 8px;
+
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+
+   text-decoration: none;
+   font-weight: 500;
+
+   transition: background 0.2s;
+}
+
+/* pseudo-selector */
+ul li a:hover {
+    background: rgba(57, 71, 117, 0.05);
+   border: 1.6px solid rgb(0, 0, 0)
+}
+
+#galery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17rem;
+    margin-top: 25rem;
+    margin-bottom: 35rem;
+
+    & > img {
+        width: 21rem;
+        height: 18rem;
+        object-fit: cover;
+        
+    }
+}
+
+
+figure {
+    display: flex;
+    gap: 2rem;
+}
+
+footer {
+    font-size: 26px;
+}
+
+.lang-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.lang-switch a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  background: #ffffff;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+
+
+/*
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(./assets/t35635yf.jpg);
+        background-position: center;
+        height: 100vh;
+    }
+    
+}*/

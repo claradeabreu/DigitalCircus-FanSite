@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(146, 154, 161);
+}
+
+
+
+
+.lang-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.lang-switch a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background: #000000;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
