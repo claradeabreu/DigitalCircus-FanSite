@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <img alt="Fanmade C&A Digital Circus Website" src=".github/preview.jpg"
-  width="100%">
+  <img width="1285" height="787" alt="image" src="https://github.com/user-attachments/assets/ea9cb470-1845-40ab-93df-288cefe10231" />
+
 </p>
 
 ## 🚀 Technologies
